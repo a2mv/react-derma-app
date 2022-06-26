@@ -1,12 +1,10 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {AppRouter} from "./application/routers/appRouter";
+import React from "react";
 
 function App() {
-  return (
-    <div className="App">
-      Hola Mundo!
-    </div>
-  );
+
+      return <AppRouter/>;
 }
 
 export default App;
